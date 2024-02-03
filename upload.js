@@ -15,7 +15,7 @@ $(function() {
             data: form_data,
             contentType: false,
             cache: false,
-            processData: false,
+            processData: true,
             dataType: "json",
             success: function(data) {
                 if (data.status == 'success') {
